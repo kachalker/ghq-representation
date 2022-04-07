@@ -70,10 +70,13 @@ main {
 /*Home Page*/
 
 #content-home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
     width: 70%;
-    margin: auto;
     text-align: center;
-    margin-top: 3em;
 }
 
 h1 {
