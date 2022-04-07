@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methods</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <!--Image taken from southernspaces.org-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js" integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li id="nav-active" class="nav-item active">
+                        <a class="nav-link" href="methods.html">Methods<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="results.html">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="conclusions.html">Conclusions</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="content-methods">
+        <h1 class="page-heading">Methods:</h1>
+        <section>
+            <h2 class="methods-section">Source Materials:</h2>
+            <div id="container1">
+                <p>The primary source for this project was <i>The Georgia Historical Quarterly</i> (GHQ) that has been published from 1917-2018 by the Georgia Historical Society. For this project, all volumes from every five years of the GHQ publications (1920-2015) were run through textual analysis. These volumes were downloaded from JSTOR, and you can view them <a class="link" href="https://www.jstor.org/journal/georhistquar?refreqid=browse-ui%3A63f97e819c8d9fd0519e5cf4be6329b6" target="_blank">here</a>.</p>
+                <img src="images/Quarterly.jpg" alt="Georgia Historical Quarterly">
+                <!--Photo from georgiahistory.com-->
+            </div>
+            <p>There were a variety of other secondary sources that were referenced to guide this project including journal articles, book chapters, and websites. You can view a full list of those sources and their roles in my project by viewing my annotated bibliography <a class="link" href="documents/Annotated Bibliography.pdf" target="_blank">here</a>.</p>
+        </section>
+        <section>
+            <h2 class="methods-section">Data Analysis Techniques:</h2>
+            <p>I began analyzing the data by downloading every volume I needed from JSTOR, and I sorted them into folders by year. Then, I uploaded those folders to the textual analysis software, AntConc, to begin my textual analysis.</p>
+            <p>I utilized 2 functions within AntConc for my analysis: KWIC and collocate. I used KWIC to find the overall times that words relating to Native Americans (Indian, native, indigenous, tribe, and the names of Georgia's 2 state-recognized tribes, Cherokee and Creek) appeared in each years' volumes of the GHQ. However, because it is impossible for a textual analysis software to tell what a word means, I had to do a slightly closer reading of where these words appeared, such as making sure “creek” related to the Creek tribe and not the body of water. I created Excel sheets with this data that you can view <a class="link" href="documents/Data Gathered Using KWIC.xlsx" target="_blank">here</a>.</p>
+            <p>I then used the collocate function to view all words within 5 words to the left or right of a particular word to look at words relating to Native Americans to find what context words relating to Native Americans appeared in. I specifically looked if they appeared with words indicating white people (trade, French, land, goods, colonial, White, boundary, territory, British, Spanish, settlement, European).</p>
+            <p>Inspired by Andrew Denson's work about Georgians' tendency to view Cherokees only through the lens of Cherokee Removal and connect them to the Lost Cause Myth, I also used the collocate function to look for the appearance of words near the word “Cherokee” that could indicate this (sovereignty, removal, territory, lands, rights, dispossession).
+                <span class="d-inline-block" tabindex="0" data-mdb-toggle="tooltip" title="Andrew Denson, “Remembering Cherokee Removal in Civil Rights-Era Georgia,” Southern Cultures 14, no. 4 (2008): 85-101.">
+                 <a class="footnote" href="documents/Annotated Bibliography.pdf" target="_blank"><sup style="pointer-events: none;" disabled>1</sup></a>
+                </span>
+            </p>
+            <p>Lastly, I looked at the top three words within 5 words left or right of words relating to Native Americans and the word “Cherokee.” I recorded all of this data on Excel sheets. While recording the overall count of the words appearing near words relating to Native American and the word “Cherokee,” I combined any words that meant the same in context (e.g. trade and trader), and I only recorded the top 3 words of years that that had 3 words appearing at least 3 times and I excluded any names of authors of the GHQ and filler words (the, and, a, etc.). Also, because AntConc requires you to search singular and plural forms of a word, I created data sets for both singular and plural forms of the words I was examining. I also highlighted all lines that have data available in yellow and all words relating to white people or removal in green. You can view my Native American Context Excel sheet <a class="link" href="documents/Indian Context.xlsx" target="_blank">here</a>, and you can view my Cherokee Context Excel sheet <a class="link" href="documents/Cherokee Context.xlsx" target="_blank">here</a>.</p>
+        </section>
+    </main>
+    <footer>
+        <div id="top-button">
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back<br>to Top</button>
+            <script src="main.js"></script>
+        </div>
+        <div class=" text-center ">
+            <div id="footer-contents" class="text-center p-3" style="background-color: #e85a4f">
+            © Kaitlyn Chalker 2022
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>
